@@ -21,7 +21,7 @@ README template
             ├── MockGovernanceToken.sol
             ├── GovernanceAlarmResponse.sol
 
-      script/
+      scripts/
             └── Deploy.s.sol
 
       test/
@@ -105,7 +105,7 @@ Trap Contract
       }
     }
 
-4️⃣ Deploy Script (script/Deploy.s.sol)
+4️⃣ Deploy Script (scripts/Deploy.s.sol)
 
     // SPDX-License-Identifier: MIT
     pragma solidity ^0.8.20;
@@ -180,7 +180,6 @@ Gas:
 ~25k (efficient single-vector check)
 
     forge install OpenZeppelin/openzeppelin-contracts
-
     forge build
     forge test
     forge script scripts/Deploy.s.sol:Deploy --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
