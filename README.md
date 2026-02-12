@@ -179,7 +179,8 @@ Emit GovernanceAttackAlert event
 Gas:
 ~25k (efficient single-vector check)
 
+        forge install OpenZeppelin/openzeppelin-contracts
 
     forge build
     forge test
-    forge script script/Deploy.s.sol --broadcast
+    forge script scripts/Deploy.s.sol:Deploy --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
