@@ -179,7 +179,7 @@ Emit GovernanceAttackAlert event
 Gas:
 ~25k (efficient single-vector check)
 
-        forge install OpenZeppelin/openzeppelin-contracts
+    forge install OpenZeppelin/openzeppelin-contracts
 
     forge build
     forge test
